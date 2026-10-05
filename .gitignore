@@ -1,0 +1,55 @@
+# --- Python / FastAPI ---
+# Virtual environments
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+
+# SQLite / local DBs
+*.db
+data/
+instance/
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- Node / React ---
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Cache
+.cache/
+*.tmp
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# --- Frontend extras ---
+# Yarn / npm logs
+yarn-error.log
+npm-debug.log*
+
+# --- Misc ---
+# Generated chart images or exports
+charts/
+exports/
